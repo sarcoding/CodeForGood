@@ -1,3 +1,7 @@
+import asyncio
+import websockets
+import json
+
 default_total_signal_time = 240
 default_single_road_time = 60
 
@@ -40,5 +44,19 @@ def manage(counts):
     print(f"Green signal for road 3: {signal_time_road3:.2f} seconds")
     print(f"Green signal for road 4: {signal_time_road4:.2f} seconds")
 
-    
+async def request_traffic_data(uri):
+    async with websockets.connect(uri) as websocket:
+        while True:
+
+            response = await websocket.recv()
+            traffic_data = json.loads(response)
+            print("Traffic Data:")
+            print("Waiting Car Count:", traffic_data.get('waiting_car_count', 0))
+
+if __name__ == "__main__":
+    server_uri = "ws://localhost:8765"  # Replace with your server URI
+    asyncio.get_event_loop().run_until_complete(request_traffic_data(server_uri))
+
+
+
 manage(vehicle_counts)
