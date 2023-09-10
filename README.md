@@ -1,8 +1,9 @@
 # TrafficGuardian
 
-Traffic System YOLO README
+Traffic System 
 
-Default (GPT-3.5)
+
+![Recording 2023-09-10 223932](https://github.com/sarcoding/TrafficGuardian/assets/92933416/d3455067-2a06-4ec7-bda0-814b5907222e)
 
 User
 we made trafic system using yolo libraray which detects cars..accordind to signals and if someone break it...it captured on dashboard...so make readme file for github
