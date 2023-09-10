@@ -10,8 +10,8 @@ model_url = "https://tfhub.dev/google/openimages_v4/ssd/mobilenet_v2/1"
 # Load the model from TensorFlow Hub
 detector = hub.load(model_url).signatures['default']
 
-inputPath = "C:\\Users\\Aum\\Adaptive-Traffic-Signal-Timer\\Code\\YOLO\\darkflow\\test_images\\"
-outputPath = "C:\\Users\\Aum\\Adaptive-Traffic-Signal-Timer\\Code\\YOLO\\darkflow\\output_images\\"
+inputPath = "C:\\Users\\Aum\\CodeForGood\\test_images\\"
+outputPath = "C:\\Users\\Aum\\CodeForGood\\output_images\\"
 
 def detectAndCountVehicles(filename):
     img = cv2.imread(inputPath + filename)
@@ -48,5 +48,3 @@ def detectAndCountVehicles(filename):
 for filename in os.listdir(inputPath):
     if filename.lower().endswith((".png", ".jpg", ".jpeg")):
         detectAndCountVehicles(filename)
-
-print("Done!")
