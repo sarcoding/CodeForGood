@@ -2,7 +2,7 @@
 
 Traffic System 
 
-
+![Recording 2023-09-10 233048 - Trim](https://github.com/sarcoding/TrafficGuardian/assets/92933416/be66488c-a95d-43f8-867a-9957a0f7ee97)
 ![Recording 2023-09-10 223932](https://github.com/sarcoding/TrafficGuardian/assets/92933416/d3455067-2a06-4ec7-bda0-814b5907222e)
 
 # TrafficGuardian: Traffic Management and Vehicle Tracking
@@ -14,6 +14,7 @@ TrafficGuardian is a comprehensive traffic management system that combines real-
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
+
 - [Usage](#usage)
 - [Demo](#demo)
 - [Acknowledgments](#acknowledgments)
