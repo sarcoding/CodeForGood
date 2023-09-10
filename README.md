@@ -1,10 +1,3 @@
-# TrafficGuardian
-
-Traffic System 
-
-![Recording 2023-09-10 233048 - Trim](https://github.com/sarcoding/TrafficGuardian/assets/92933416/be66488c-a95d-43f8-867a-9957a0f7ee97)
-![Recording 2023-09-10 223932](https://github.com/sarcoding/TrafficGuardian/assets/92933416/d3455067-2a06-4ec7-bda0-814b5907222e)
-
 # TrafficGuardian: Traffic Management and Vehicle Tracking
 
 TrafficGuardian is a comprehensive traffic management system that combines real-time vehicle tracking, traffic signal management, and signal violation detection. This system helps optimize traffic flow, reduce congestion, and enhance road safety.
@@ -14,7 +7,6 @@ TrafficGuardian is a comprehensive traffic management system that combines real-
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-
 - [Usage](#usage)
 - [Demo](#demo)
 - [Acknowledgments](#acknowledgments)
@@ -35,7 +27,7 @@ TrafficGuardian is designed to streamline traffic management in urban areas by h
 1. Clone the repository:
 
    bash
-   git clone https://github.com/your-username/trafficguardian.git
+   git clone https://github.com/sarcoding/TrafficGuardian.git
 
 2. Install the required libraries
 
@@ -46,10 +38,43 @@ TrafficGuardian is designed to streamline traffic management in urban areas by h
 
 1. Run the launch.py file, for object counting and tracking
 
-   bash
+   ```bash
    python launch.py
 
 2. Run the central_hub.py file, for managing the signal timing based on the real-time data recieved from launch.py
 
-   bash
-   python central_hub.py 
+   ```bash
+   python central_hub.py
+
+## Configuration
+
+Adjust regions and signal timings in the configuration file (config.json) to suit your traffic management needs.
+
+## Demo
+
+
+
+
+
+
+
+
+
+## Contributing
+
+Contributions to TrafficGuardian are welcome! Please fork the repository and submit pull requests with any enhancements or bug fixes.
+
+
+## Acknowledgments
+
+We would like to express our gratitude to the open-source community for their contributions to the success of this project. Special thanks to the developers of the following libraries and frameworks:
+
+- [OpenCV](https://opencv.org/): For providing powerful computer vision tools that enabled real-time vehicle tracking.
+- [ultralytics](https://github.com/ultralytics): For the YOLOv8 model that formed the backbone of our object detection and tracking system.
+
+Without the support of these tools and the broader open-source ecosystem, this project would not have been possible.
+
+
+
+
+   
