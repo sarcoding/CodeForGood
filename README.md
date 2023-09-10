@@ -26,12 +26,12 @@ TrafficGuardian is designed to streamline traffic management in urban areas by h
 
 1. Clone the repository:
 
-   bash
+   ```bash
    git clone https://github.com/sarcoding/TrafficGuardian.git
 
 2. Install the required libraries
 
-   bash
+   ```bash
    pip install -r requirements.txt
 
 ## Usage
