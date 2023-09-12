@@ -55,7 +55,8 @@ Adjust regions and signal timings in the configuration file (config.json) to sui
 
 
 
-https://github.com/sarcoding/TrafficGuardian/assets/92933416/5e3867dd-b036-4326-bc2d-f89bda10431e
+https://github.com/sarcoding/TrafficGuardian/assets/100040922/28d76540-cf30-4bbc-bf6d-8781c57629cc
+
 
 
 
