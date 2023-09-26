@@ -1,6 +1,6 @@
 from main_object import ObjectTracker
+from client import request_traffic_data
 import asyncio
 
-camera1 = ObjectTracker("veh2.mp4", 281, 374, 3)
-
-asyncio.run(camera1.main())
+camera1 = ObjectTracker("camera1", "veh2.mp4", 281, 374, 3)
+camera1.object_tracking()
